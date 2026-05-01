@@ -1,0 +1,21 @@
+{
+    "textPayload": "{'attributes': {'specversion': '1.0', 'id': 'projects/metal-dimension-402820/logs/cloudaudit.googleapis.com%2Fdata_accesst6bk49e8nk2j1777645876525951', 'source': '//cloudaudit.googleapis.com/projects/metal-dimension-402820/logs/data_access', 'type': 'google.cloud.audit.log.v1.written', 'datacontenttype': 'application/json; charset=utf-8', 'dataschema': 'https://googleapis.github.io/google-cloudevents/jsonschema/google/events/cloud/audit/v1/LogEntryData.json', 'subject': 'storage.googleapis.com/projects/_/buckets/bkt-sales-data-automation/objects/australia.xlsx', 'time': '2026-05-01T14:31:17.924734133Z', 'methodname': 'storage.objects.create', 'servicename': 'storage.googleapis.com', 'resourcename': 'projects/_/buckets/bkt-sales-data-automation/objects/australia.xlsx', 'recordedtime': '2026-05-01T14:31:16.525951809Z'}, 'data': {'@type': 'type.googleapis.com/google.events.cloud.audit.v1.LogEntryData', 'protoPayload': {'status': {}, 'authenticationInfo': {'principalEmail': 'pankajgupta10092001@gmail.com'}, 'requestMetadata': {'callerIp': '2409:40e0:2d:1ff5:5120:d1d0:4fd9:742e', 'callerSuppliedUserAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36,gzip(gfe)', 'requestAttributes': {'time': '2026-05-01T14:31:16.535468016Z', 'auth': {}}, 'destinationAttributes': {}}, 'serviceName': 'storage.googleapis.com', 'methodName': 'storage.objects.create', 'authorizationInfo': [{'resource': 'projects/_/buckets/bkt-sales-data-automation/objects/australia.xlsx', 'permission': 'storage.objects.create', 'granted': True, 'resourceAttributes': {}}, {'resource': 'projects/_/buckets/bkt-sales-data-automation/objects/australia.xlsx', 'permission': 'storage.objects.delete', 'granted': True, 'resourceAttributes': {}}], 'resourceName': 'projects/_/buckets/bkt-sales-data-automation/objects/australia.xlsx', 'serviceData': {'policyDelta': {}, '@type': 'type.googleapis.com/google.iam.v1.logging.AuditData'}, 'resourceLocation': {'currentLocations': ['europe-west2']}}, 'insertId': 't6bk49e8nk2j', 'resource': {'type': 'gcs_bucket', 'labels': {'location': 'europe-west2', 'bucket_name': 'bkt-sales-data-automation', 'project_id': 'metal-dimension-402820'}}, 'timestamp': '2026-05-01T14:31:16.525951809Z', 'severity': 'INFO', 'logName': 'projects/metal-dimension-402820/logs/cloudaudit.googleapis.com%2Fdata_access', 'receiveTimestamp': '2026-05-01T14:31:17.924734133Z'}}",
+    "insertId": "69f4b936000d1a961e3c2dc7",
+    "resource": {
+        "type": "cloud_run_revision",
+        "labels": {
+            "revision_name": "load-gcs-to-biquery-00007-87m",
+            "location": "europe-west2",
+            "project_id": "metal-dimension-402820",
+            "configuration_name": "load-gcs-to-biquery",
+            "service_name": "load-gcs-to-biquery"
+        }
+    },
+    "timestamp": "2026-05-01T14:31:18.858774Z",
+    "labels": {
+        "instanceId": "0007b734d94dd2213b29d0ffa448adac3130c6df480f548f4e1570e45afdd81f02a8aeac15212294dd1a7ff355ded446892cec5518168efd724c71215209221e0dba0208979de3df94f2c79c9a8af9",
+        "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22/runtimes/python311:python311_20260412_3_11_14_RC00"
+    },
+    "logName": "projects/metal-dimension-402820/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2026-05-01T14:31:18.863500770Z"
+}
